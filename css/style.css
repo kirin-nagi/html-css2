@@ -1,0 +1,23 @@
+.relative{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.absolute{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.red-box{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.blue-box{
+    width: 500px;
+    height: 500px;
+    background-color:blue;
+}
