@@ -1,23 +1,21 @@
-.relative{
-    position: relative;
-    top: 50px;
-    left: 50px;
+.float{
+    max-width: 760px;
+    width: 100%;
+    margin: 60px auto;
 }
 
-.absolute{
-    position: absolute;
-    top: 100px;
-    left: 100px;
+.float__img{
+    width: 400px;
+    float: right;
+    margin: 0 0 20px 20px;
 }
 
-.red-box{
-    width: 500px;
-    height: 500px;
-    background-color: red;
+img {
+    width: 100%;
 }
 
-.blue-box{
-    width: 500px;
-    height: 500px;
-    background-color:blue;
+.float__content-ttl {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
