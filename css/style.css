@@ -1,25 +1,12 @@
-.download__btm{
-    position: relative;
-    background-color: #55bbbb;
-    width: 200px;
-    display: block;
-    padding: 18px;
-    text-align: center;
-    color: #fff;
-    font-size: 16px;
-    text-decoration: none;
-    border-radius: 30px;
-    margin: 100px auto;
+.item2{
+    display: none;
 }
 
-.download__btm::after{
-    content: "";
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    background: url(../img/download__icon.svg)no-repeat;
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-    transform: translate(0,-50%);
+@media screen and (max-width: 768px){
+    .item{
+        display: none;
+    }
+}
+.item2{
+    display: block;
 }
