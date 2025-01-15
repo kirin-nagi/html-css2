@@ -1,138 +1,137 @@
 a {
- text-decoration: none;
- color: inherit;
+text-decoration: none;
+color: inherit;
 }
 
- .header {
-     display: flex;
-     justify-content: center;
-     height: 70px;
-     width: 960px;
-     padding: 0 4% 0 0;
-     margin: 0 auto;
- }
+.header {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 960px;
+    padding: 0 4% 0 0;
+    margin: 0 auto;
+}
 
- .header-ttl img {
-     width: 15%;
-     margin-top: 10px;
+.header-ttl img {
+    width: 15%;
+    margin-top: 10px;
+}
 
- }
+.header-nav-list {
+    display: flex;
+    margin: 20px;
+}
 
- .header-nav-list {
-     display: flex;
-     margin: 20px;
- }
+.header-nav-item:not(:last-child) {
+    margin-right: 30px;
+}
 
- .header-nav-item:not(:last-child) {
-     margin-right: 30px;
- }
+.mainvisual img {
+    width: 100vw;
+    height: 600px;
+    object-fit: cover;
+}
 
- .mainvisual img {
-     width: 100vw;
-     height: 600px;
-     object-fit: cover;
+.about {
+    text-align: center;
+    width: 960px;
+    padding: 4%;
+    margin: 0 auto;
+}
 
- }
+.title {
+    display: inline-block;
+    border-bottom: solid 1px black;
+    font-size: 36px;
+}
 
- .about {
-     text-align: center;
-     width: 960px;
-     padding: 4%;
-     margin: 0 auto;
- }
+.profile__content {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
 
- .title {
-     display: inline-block;
-     border-bottom: solid 1px black;
-     font-size: 36px;
- }
+.profile__content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 
- .profile__content {
-     margin-top: 80px;
-     display: flex;
-     flex-direction: center;
-     justify-content: center;
- }
+.profile__content-name {
+    padding: 10px 40px;
+    margin: 0;
+}
 
- .profile__content img {
+.profile__content-text {
+    padding: 10px 40px;
+}
 
-     width: 100px;
-     height: 100px;
-     border-radius: 50%;
- }
+.bicycle {
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+}
 
- .profile__content-name {
-     padding: 10px 40px;
-     margin: 0;
+.bicycle__content {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 
- }
+}
 
- .profile__content-text {
-     padding: 10px 40px;
+.bicycle__content-img {
+    width: 30%;
+}
 
- }
+.bicycle__content-img img {
+    width: 100%;
+}
 
- .bicycle {
-     text-align: center;
-     width: 960px;
-     margin: 0 auto;
- }
+.bicycle__content-ttl {
+    margin: 15px 15px;
 
- .bicycle__content {
-     padding: 50px;
-     display: flex;
-     justify-content: space-between;
-     list-style: none;
+}
 
- }
-
- .bicycle__content-img {
-     width: 30%;
- }
-
- .bicycle__content-img img {
-     width: 100%;
- }
-
- .bicycle__content-ttl {
-     margin: 15px 15px;
-
- }
-
- .copyright {
-     font-size: 10px;
-     display: flex;
-     justify-content: center;
-     margin-top: 80px;
- }
+.copyright {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
 
 
- @media screen and (max-width: 600px) {
-     .body {}
+@media screen and (max-width: 600px) {
+    .body {
+        width: 600px;
+        text-align: center;
+    }
 
-     .header {
-         display: flex;
-         justify-content: center;
-         width: 600px;
-     }
+    .header {
+        display: flex;
+        justify-content: flex-start;
+    }
 
-     .header-ttl img {
-         width: 15%;
-         margin-top: 10px;
-     }
+    .header-ttl img {
+        width: 15%;
+        margin-top: 10px;
+    }
 
-     .header-nav-list {
-         display: flex;
-         margin: 20px;
-     }
+    .header-nav-list {
+        display: flex;
+        margin: 20px;
+    }
 
-     .mainvisual {
-         object-fit: cover;
-         width: 100vw;
-     }
+    .main {
+        object-fit: cover;
+        width: 100vw;
+    }
 
-     .bicycle__content {
-         display: flex;
-         flex-direction: column;
-     }
- }
+
+
+    .bicycle__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
